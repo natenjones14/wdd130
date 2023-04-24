@@ -2,18 +2,18 @@
 
 
 :root {
-    --primary-color: #2b357a;
-    --secondary-color: #525252;
-    --accent1-color: #ff0011;
-    --accent2-color: #09ff00;
+    --primary-color: #0E7C7B;
+    --secondary-color: #17BEBB;
+    --accent1-color: #D4F4DD;
+    --accent2-color: #D62246;
 
-    --heading-font: 'Arial', serif;
+    --heading-font: 'Times New Roman', serif;
     --paragraph-font: 'Arial', serif;
 
     --nav-background-color: #d4e3d3;
     --nav-link-color: #2e3fff;
     --nav-hover-link-color: #521d45 ;
-    --nav-hover-background-color: #5f5d9e;
+    --nav-hover-background-color: #817ed9;
 }
 
 

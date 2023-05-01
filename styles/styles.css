@@ -53,8 +53,8 @@ aside h2 {
 aside img {
     width: 200px;
     height: auto;
-    clear: left;
     position: relative;
+    top: 13px;
 }
 
 footer {
@@ -71,7 +71,6 @@ footer {
     padding: 1rem;
     background-color: rgb(93, 163, 228);
     color: #000;
-    clear: right;
 }
 
 /* smeed, this is a practice comment */

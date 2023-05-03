@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+
+:root {
+    --primary-color: #0E7C7B;
+    --secondary-color: #17BEBB;
+    --accent1-color: #D4F4DD;
+    --accent2-color: #D62246;
+
+    --heading-font: Times New Roman, serif;
+    --paragraph-font: Arial, serif;
+
+    --nav-background-color: #d4e3d3;
+    --nav-link-color: #2e3fff;
+    --nav-hover-link-color: #521d45 ;
+    --nav-hover-background-color: #817ed9;
+
+    --box-background-color: rgba(0, 0, 0, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    min-width: 840px;
+    max-width: 840px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 5px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#title {
+    position: absolute;
+    z-index: 1;
+    top: 425px;
+    width: 800px;
+    text-align: center;
+    align-self: center;
+    background-color: var(--box-background-color);
+    
+}
+
+#harold {
+    width: 30%;
+    height: auto;
+    float:right;
+    clear:none;
+    padding-left: 5px;
+}
+
+.box {
+    background-color: var(--box-background-color) ;
+    padding: 1rem;
+    position: absolute;
+    z-index: 1;
+    top: 647px;
+    left: 220px;
+    width: 600px;
+    color:var(--secondary-color);
+    font-size: 22px;
+}

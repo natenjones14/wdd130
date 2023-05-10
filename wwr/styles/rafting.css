@@ -36,8 +36,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    padding: 20px;
+    display: grid;
+    grid-template-columns: 200px 4fr 1.87fr;
+    padding: 10px;
     background-color: var(--accent1-color);
+    margin: 1rem auto;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.logo {
+    margin: 0 0.25rem 0 1rem;
+    width: 120px;
 }
 
 p {
@@ -45,9 +55,10 @@ p {
 }
 
 nav {
+    display: flex;
+    flex-direction: row;
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
-    display: flex;
   }
   
 nav a {
@@ -73,6 +84,19 @@ nav a:hover {
     position: relative;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent1-color);
+}
+
+.social-nav {
+    display: flex;
+    align-self: flex-end;
+}
+
 #title {
     position: absolute;
     z-index: 1;
@@ -81,8 +105,9 @@ nav a:hover {
     text-align: center;
     align-self: center;
     background-color: var(--box-background-color);
-    
 }
+
+
 
 #harold {
     width: 30%;
@@ -90,6 +115,12 @@ nav a:hover {
     float:right;
     clear:none;
     padding-left: 5px;
+}
+
+.rafting-photos {
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .box {

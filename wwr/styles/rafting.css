@@ -21,6 +21,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 1000px;
 }
 
 body {
@@ -33,6 +34,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+
+h2 {
+    
 }
 
 header {
@@ -84,18 +89,38 @@ nav a:hover {
     position: relative;
 }
 
-footer {
+#losing-it {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: auto;
+    width: 20%;
+}
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
     background-color: var(--accent1-color);
+    margin-top: 1rem;
 }
 
 .social-nav {
-    display: flex;
-    align-self: flex-end;
+    float: right;
 }
+
 
 #title {
     position: absolute;
@@ -106,8 +131,6 @@ footer {
     align-self: center;
     background-color: var(--box-background-color);
 }
-
-
 
 #harold {
     width: 30%;
@@ -120,17 +143,6 @@ footer {
 .rafting-photos {
     display: flex;
     flex-direction: row;
-    
-}
-
-.box {
-    background-color: var(--box-background-color) ;
-    padding: 1rem;
-    position: absolute;
-    z-index: 1;
-    top: 647px;
-    left: 220px;
-    width: 600px;
-    color:var(--secondary-color);
-    font-size: 22px;
+    align-content: center;
+    background-color: var(--accent1-color);
 }

@@ -36,13 +36,9 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
-h2 {
-    
-}
-
 header {
     display: grid;
-    grid-template-columns: 200px 4fr 1.87fr;
+    grid-template-columns: 200px auto 1fr;
     padding: 10px;
     background-color: var(--accent1-color);
     margin: 1rem auto;
@@ -112,14 +108,11 @@ figcaption {
 
 footer {
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
     background-color: var(--accent1-color);
     margin-top: 1rem;
 }
 
-.social-nav {
-    float: right;
-}
 
 
 #title {

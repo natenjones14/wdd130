@@ -118,7 +118,7 @@ footer {
 #title {
     position: absolute;
     z-index: 1;
-    top: 425px;
+    top: 225px;
     width: 800px;
     text-align: center;
     align-self: center;
@@ -126,11 +126,11 @@ footer {
 }
 
 #harold {
-    width: 30%;
+    width: 20%;
     height: auto;
-    float:right;
+    float: right;
     clear:none;
-    padding-left: 5px;
+    margin: 8px;
 }
 
 .rafting-photos {
@@ -138,4 +138,18 @@ footer {
     flex-direction: row;
     align-content: center;
     background-color: var(--accent1-color);
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: rgb(93, 163, 228, 50%);
+    color: #000;
+    position: absolute;
+    bottom: 150px;
+    left: 80px;
+    overflow: auto;
+    width: 700px;;
+    font-size: 1.5rem;
+    
 }

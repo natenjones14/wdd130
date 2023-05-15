@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>WDD 130 | HTML Form - User Poll</title>
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <h1>Basic HTML and CSS Quiz</h1>
+        <fieldset>
+            <label for="html-acronym">1. What does HTML stand for?</label>
+            <input type="text" id="html-acronym" name="html-acronym">
+
+            <label for="display-question">2. What is the difference between display:grid and display:flex?</label>
+            <textarea id="display-question" name="display-question" rows="4" placeholder="The difference between grid and flex is...">></textarea>
+
+            <label for="container">3. Which of the following is not a correct flex container property?</label>
+                <select id="container" name="container">
+                    <option disabled selected value> -- select an option -- </option>
+                    <option value="flex-direction">flex-direction</option>
+                    <option value="flex-wrap">flex-wrap</option>
+                    <option value="align-items">align-items</option>
+                    <option value="grid-template-columns">grid-template-columns</option>
+                </select>
+            
+            <label for="copyright">4. What symbol does this shortcut creat in HTML?</label>
+            <img src="images/copyright.png" alt="copyright">
+            <!--&copy;-->
+            <input type="text" id="copyright" name="copyright">
+            <button type="submit">Submit Quiz</button>       
+        </fieldset>
+        <footer>
+            <p>© 2023 | HTML and CSS Quiz | Nate Jones</p>
+        </footer> 
+    </body>
+    
+</html>

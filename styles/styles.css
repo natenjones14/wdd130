@@ -85,12 +85,5 @@ header, .grid, footer {
 
 /* Class Selectors */
 
-.box {
-    margin: 1rem;
-    border: 1px solid rgba(0,0,0,0.1);
-    padding: 1rem;
-    background-color: rgb(93, 163, 228);
-    color: #000;
-}
 
 /* smeed, this is a practice comment */

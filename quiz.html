@@ -3,33 +3,35 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>WDD 130 | HTML Form - User Poll</title>
+        <title>WDD 130 | HTML and CSS Quiz</title>
+        <meta name="description" content="Quiz page">
+        <meta name="author" content="Nate Jones">
         <link rel="stylesheet" href="styles/quiz.css">
     </head>
     <body>
         <h1>Basic HTML and CSS Quiz</h1>
-        <fieldset>
-            <label for="html-acronym">1. What does HTML stand for?</label>
-            <input type="text" id="html-acronym" name="html-acronym">
+        <form>
+            <fieldset>
+                <label for="html-acronym">1. What does HTML stand for?</label>
+                <input type="text" id="q1" name="q1">
 
-            <label for="display-question">2. What is the difference between display:grid and display:flex?</label>
-            <textarea id="display-question" name="display-question" rows="4" placeholder="The difference between grid and flex is...">></textarea>
+                <label for="display-question">2. What is the difference between display:grid and display:flex?</label>
+                <textarea id="q2" name="q2" rows="4" placeholder="The difference between grid and flex is...">></textarea>
 
-            <label for="container">3. Which of the following is not a correct flex container property?</label>
-                <select id="container" name="container">
-                    <option disabled selected value> -- select an option -- </option>
-                    <option value="flex-direction">flex-direction</option>
-                    <option value="flex-wrap">flex-wrap</option>
-                    <option value="align-items">align-items</option>
-                    <option value="grid-template-columns">grid-template-columns</option>
-                </select>
-            
-            <label for="copyright">4. What symbol does this shortcut creat in HTML?</label>
-            <img src="images/copyright.png" alt="copyright">
-            <!--&copy;-->
-            <input type="text" id="copyright" name="copyright">
-            <button type="submit">Submit Quiz</button>       
-        </fieldset>
+                <label for="container">3. Which of the following is not a correct flex container property?</label>
+                    <select id="q3" name="q3">
+                        <option disabled selected value> -- select an option -- </option>
+                        <option value="flex-direction">flex-direction</option>
+                        <option value="flex-wrap">flex-wrap</option>
+                        <option value="align-items">align-items</option>
+                        <option value="grid-template-columns">grid-template-columns</option>
+                    </select>
+                
+                <label for="copyright">4. How many shortcuts are there in HTML for the copyright symbol(©)?</label>
+                <input type="number" id="q4" name="q4">
+                <button type="submit">Submit Quiz</button> 
+            </fieldset>      
+        </form>
         <footer>
             <p>© 2023 | HTML and CSS Quiz | Nate Jones</p>
         </footer> 

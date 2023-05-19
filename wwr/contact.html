@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Contact Us | Nate Jones</title>
+        <title>Sneed Rafting Company Contact Page | Nate Jones</title>
         <meta name="description" content="Contact Information Page">
         <meta name="author" content="Nate Jones">
         <link rel="stylesheet" href="styles/rafting.css">
@@ -61,17 +61,23 @@
                 <input type="text" id="email" name="email">
 
                 <label for="purpose">Purpose of message</label>
-                    <select id="purpose" name="purpose">
-                        <option disabled selected value> -- select an option -- </option>
-                        <option value="General Inquiry">General Inquiry</option>
-                        <option value="Reservation Question">Reservation Question</option>
-                        <option value="Website Suggestion">Website Suggestion</option>
-                    </select>
-                
+
+                <div>
+                    <input type="radio" id="html" name="fav_language" value="General Inquiry">
+                    <label for="general-inquiry">General Inquiry</label><br>
+                    
+                    <input type="radio" id="html" name="fav_language" value="Reservation Question">
+                    <label for="reservation-question">Reservation Question</label><br>
+                    
+                    <input type="radio" id="html" name="fav_language" value="Website Suggestion">
+                    <label for="website-suggestion">Website Suggestion</label><br>
+                </div>
+                    
+
                 <label for="message">Your message:</label>
                 <textarea id="message" name="message" rows="4" placeholder="Enter text here">></textarea>
 
-                <label for="newsletter">Please subsrcibe to the monthly newsletter</label>
+                <label for="newsletter">Please subscribe to the monthly newsletter</label>
                 <input type="checkbox" id="newsletter" name="newsletter">
 
                 <button type="submit">Submit</button> 

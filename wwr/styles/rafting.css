@@ -96,8 +96,16 @@ figure {
     flex-flow: column;
     padding: 5px;
     margin: auto;
+}
+
+.five {
     width: 20%;
 }
+
+.three {
+    width: 30%;
+}
+
 figcaption {
     background-color: #222;
     color: #fff;
@@ -106,11 +114,16 @@ figcaption {
     text-align: center;
 }
 
+.left-caption {
+    text-align: left;
+}
+
 section {
     background-color: var(--accent1-color);
     margin: 10px;
     text-align: center;
 }
+
 
 footer {
     display: flex;
@@ -135,6 +148,7 @@ fieldset {
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
 }
+
 button {
     margin: 1rem;
     background-color: navy;
@@ -149,6 +163,36 @@ button {
     width: 22px;
     height: 22px;
     vertical-align: bottom;
+}
+
+table {
+    font-family: var(--paragraph-font);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    font-weight: bold;
+}
+
+td {
+    font-weight: normal;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    
+}
+
+tr:first-child{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
 
 
@@ -181,6 +225,7 @@ button {
     align-content: center;
     background-color: var(--accent1-color);
 }
+
 
 .box {
     margin: 1rem;

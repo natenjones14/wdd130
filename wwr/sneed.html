@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Newsletter Sign-up Form</title>
+  <style>
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Newsletter Sign-up</h2>
+    <form action="subscribe.php" method="POST">
+      <div class="form-group">
+        <label for="email">Email address:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Subscribe">
+      </div>
+    </form>
+  </div>
+</body>
+</html>

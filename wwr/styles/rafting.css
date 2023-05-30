@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 :root {
-    --primary-color: #0E7C7B;
+    --primary-color: #1f4443;
+    --title-color: #1afffb;
     --secondary-color: #17BEBB;
-    --accent1-color: #D4F4DD;
+    --accent1-color: #ddffe7;
     --accent2-color: #D62246;
 
     --heading-font: Times New Roman, serif;
     --paragraph-font: Arial, serif;
 
-    --nav-background-color: #d4e3d3;
-    --nav-link-color: #2e3fff;
+    --nav-background-color: hsl(135, 100%, 90%);
+    --nav-link-color: #0015ff;
     --nav-hover-link-color: #521d45 ;
     --nav-hover-background-color: #817ed9;
 
@@ -44,6 +45,10 @@ header {
     margin: 1rem auto;
     align-items: center;
     max-width: 1000px;
+}
+
+div {
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -90,6 +95,11 @@ nav a:hover {
     flex-direction: row;
 }
 
+#losing-it-again {
+    display: grid;
+    grid-template: auto / 400px 400px;
+}
+
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
@@ -107,7 +117,7 @@ figure {
 }
 
 .two {
-    width: 45%;
+    width: 90%;
 }
 
 figcaption {
@@ -213,6 +223,8 @@ tr:nth-child(even) {
     text-align: center;
     align-self: center;
     background-color: var(--box-background-color);
+    color: var(--title-color);
+    
 }
 
 #harold {
@@ -252,6 +264,7 @@ tr:nth-child(even) {
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #eee;
+    margin-bottom: 20px;
 }
 
 .form-group {
@@ -296,3 +309,17 @@ input[type="submit"]:hover {
     align-items: center;
     margin-right: 10px;
   }
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF5722;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #E64A19;
+}

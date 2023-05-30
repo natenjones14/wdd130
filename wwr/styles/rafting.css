@@ -249,7 +249,7 @@ tr:nth-child(even) {
     background-color: rgb(93, 163, 228, 50%);
     color: #000;
     position: absolute;
-    bottom: 150px;
+    bottom:300px;
     left: 80px;
     overflow: auto;
     width: 700px;
